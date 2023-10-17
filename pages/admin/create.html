@@ -6,7 +6,7 @@
     <title>Create | Funkoshop</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/trabajo-integrador/css/creatstyle.css" />
   </head>
   <body>
   
@@ -42,8 +42,76 @@
       </nav>
    </header>
 
-   <main class="main-container">
-    <h1>CREAR NUEVO ITEM</h1>
+   <main >
+    <div class="container-form">
+        <h1>CREAR NUEVO ITEM</h1>
+    
+    <form action="" >
+      
+    <div class="input-row">
+        <div class="input-group">
+         <label for="categoria">Categoria:</label>
+             <select name="categoria" id="categoria">
+              <option value="fantasia">Fantasia</option>
+              <option value="anime">Anime</option>
+              <option value="cine">Ciencia ficción</option>
+               <option value="series">Series</option>
+             </select>
+          <label for="licencia">Licencia:</label>
+         <select name="licencia" id="licencia">
+            <option value="naruto">Naruto Shippuden</option>
+            <option value="harrypotter">Harry Potter</option>
+            <option value="starwars">Star wars</option>
+            <option value="pokemon">Pokemon</option>
+          </select>
+        </div>
+        <label for="nombre-producto">Nombre del producto:</label>
+        <input type="text" id="nombre-producto">
+    </div>
+   
+
+<div class="textarea">
+    <textarea name="des-producto" id="des-producto" cols="60" rows="10" placeholder="Descripcion del producto"></textarea>        
+</div>
+
+<div class="input-row">    
+    <div class="input-group">
+        <label for="sku">SKU:</label>
+        <input type="text" id="sku" name="sku">
+
+        <label for="precio">Precio:</label>
+        <input type="text" id="precio" name="precio">
+
+        <label for="stock">Stock:</label>
+        <input type="text" id="stock" name="stock">
+    </div>
+
+    <div class="input-group">
+         <label for="descuento">Descuento</label>
+        <input type="text" id="descuento" name="descuento">
+
+         <label for="cuotas">Cuotas:</label>
+        <select name="cuotas" id="cuotas">
+            <option value="3cuotas">3 cuotas sin interes</option>
+            <option value="6cuotas">6 cuotas con interes</option>
+            <option value="12cuotas">12 cuotas con interes</option>
+        </select>
+    </div>
+
+        <label for="imagenes">Imágenes:</label>
+        <input type="file" value="Elegir archivos" id="imagenes">
+</div>
+<br>
+<div> 
+    <button type="submit">AGREGAR PRODUCTO</button>
+    <button type="reset">LIMPIAR</button>
+</div>
+
+
+</form>
+</div>
+
+</div>
    </main>
 
    <footer class="footer">

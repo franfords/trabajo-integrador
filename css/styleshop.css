@@ -232,15 +232,15 @@ label{margin: 0.5em;}
 /*----------------- IMAGENES PRODUCTOS ------------------*/
 .containershopimg{
     position: relative;
-    width: 40rem;
+    width: 100%;
     height: 35.2rem;
 }  
 
 .containershopimg img{
     position: absolute;
-    width: 80%;
+    width: 100%;
     top: 50%;
-    left: 39%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
